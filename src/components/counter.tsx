@@ -5,7 +5,11 @@ export const Counter = () => {
 
   return (
     <div>
-      <button type="button" onClick={() => setCount((count) => count + 1)}>
+      <button
+        className="border-2 p-2"
+        type="button"
+        onClick={() => setCount((count) => count + 1)}
+      >
         Increase
       </button>
       <p>Counter: {count}</p>
